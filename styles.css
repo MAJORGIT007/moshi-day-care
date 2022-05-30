@@ -20,7 +20,7 @@ img {
 }
 
 #hero {
-    background: url("images/dogdaycare.jpg");
+    background: url("dogdaycare.jpg");
     background-size: cover;
     height: 343px;
     color: white;
