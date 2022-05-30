@@ -1,0 +1,123 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Chicle', cursive;
+    width: 720px;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background: url("images/dogdaycare.jpg");
+    background-size: cover;
+    height: 343px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#hero-visit {
+    font-size: 32px;
+    background-color: #1D3557;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin: 122px 0 21px 0;
+}
+
+#hero-description {
+    font-size: 19px;
+    background-color: #457B9D;
+    padding: 8px 28px;
+    border-radius: 8px;
+    margin: 0px;
+    text-shadow: 0 0 2px black;
+}
+
+#activities {
+    background-color: #F1FAEE;
+    height: 343px;
+    padding: 28px 0px 0px 0px;
+    color: #1D3557;
+}
+
+#activity-header {
+    margin: 0 0 40px 0;
+}
+
+.activities-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.activities-section-parts{
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    padding: 15px;
+}
+
+.activities-section-parts> h3{
+    margin: 23px 0 17px 0;
+}
+
+.activities-section-parts> p{
+    margin: 0;
+}
+
+.activities-section-parts:hover {
+    border: 5px solid #1D3557;
+    border-radius: 10px;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.activities-img {
+    border-radius: 50%;
+    height: 104px;
+    width: 104px;
+    margin: 0 auto;
+}
+
+
+#guide {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #A8DADC;
+    border-radius: 12px;
+    border-bottom: 8px solid #1D3557;
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+    align-items: center;
+    color: #1D3557;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+#guide-img {
+    width: 180px;
+    height: 250px;
+    border: 6px solid #1D3557;
+    border-radius: 8px;
+}
+
+.guide-rightside {
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+}
